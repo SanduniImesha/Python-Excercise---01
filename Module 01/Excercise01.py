@@ -1,0 +1,1 @@
+print("I completed the exercise 01 & 02 successfully!")
