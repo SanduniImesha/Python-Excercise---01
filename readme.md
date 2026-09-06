@@ -1,6 +1,6 @@
 # Softwear 01 -  Python Excercise - 01
 
-# Module 01
+# Module 01 & 02
 
 ### hello.py
 Hello, Sanduniimesha
