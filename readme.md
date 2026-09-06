@@ -8,3 +8,15 @@ Hello, Sanduniimesha
 
 ### Excercise01.py
 I completed the exercise 01 & 02 successfuly!
+
+# Module 03 & 04
+done
+
+## Project 1
+done
+
+# MOdule 05 & 06
+done
+
+## Project 2
+done
