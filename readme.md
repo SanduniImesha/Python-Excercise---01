@@ -15,7 +15,7 @@ done
 ## Project 1
 done
 
-# MOdule 05 & 06
+# Module 05 & 06
 done
 
 ## Project 2
