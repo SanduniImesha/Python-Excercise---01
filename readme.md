@@ -20,3 +20,6 @@ done
 
 ## Project 2
 done
+
+# Module 07 & 08 
+done
