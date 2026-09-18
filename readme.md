@@ -25,7 +25,7 @@ done
 done
 
 ## Project 3
-done
+done , I completed this before deadline but I renamed this as project 01 under module 7. I apologize for the confusion and would really appreciate it if you could check it again.
 
 # Module 09 & 10
 done
