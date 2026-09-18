@@ -24,8 +24,8 @@ done
 # Module 07 & 08 
 done
 
-# Module 09 & 10
+## Project 3
 done
 
-## Project 3
+# Module 09 & 10
 done
