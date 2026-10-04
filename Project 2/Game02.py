@@ -8,17 +8,19 @@ else:
 
     while True:
         print("\n--- Main Menu ---")
-        print("Commands: kartta, reppu, taika, lopeta")
+        print("Commands: kartta, reppu, taika, Bell, lopeta")
         command = input("> ")
 
         if command == "kartta":
-            print("You open the map. You are standing at the crossroads.")
+            print("You open the map. You are standing at the entrance of the village.")
         elif command == "reppu":
             print("Your backpack contains: a torch, a rope, and 3 gold coins.")
         elif command == "taika":
             print("You cast a spell! Sparks fly from your fingertips.")
+        elif command == "Bell":
+            print("You ring the bell. The sound echoes through the village.")
         elif command == "lopeta":
-            print("Goodbye!")
+            print("Good Bye!")
             break
         else:
             print(f"Unknown command: {command}")

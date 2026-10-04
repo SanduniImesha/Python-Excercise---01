@@ -48,7 +48,7 @@ while True:
     elif choice == "3":
         remove_item(inventory)
     elif choice == "4":
-        print("Goodbye!")
+        print("Good Luck!")
         break
     else:
         print("Invalid choice, please try again.")
