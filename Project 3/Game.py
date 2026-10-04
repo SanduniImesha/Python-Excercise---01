@@ -1,5 +1,5 @@
 def add_item(inventory):
-    """Asks the user for an item name and adds it to the inventory list."""
+    """an item name and adds it to the inventory list."""
     item = input("Enter the name of the item to add: ")
     inventory.append(item)
     print(f"'{item}' was added to the inventory.")
@@ -16,7 +16,7 @@ def show_inventory(inventory):
 
 
 def remove_item(inventory):
-    """Asks the user for an item name and removes it from the inventory, if found."""
+    """ an item name and removes it from the inventory, if found."""
     item = input("Enter the name of the item to remove: ")
     if item in inventory:
         inventory.remove(item)
