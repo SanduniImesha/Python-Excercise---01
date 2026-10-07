@@ -1,0 +1,23 @@
+--- HOW TO PLAY ---
+Type a command and press Enter. The menu is shown again after every command.
+
+kartta   - look at the map (where you are and where you can go)
+katso    - look around the room
+liiku    - move to another room
+ota      - collect the item in this room
+reppu    - show your backpack
+taika    - cast a spell
+bell     - ring the bell
+tallenna - save the game
+ohje     - show these instructions again
+lopeta   - quit the game
+
+TIPS
+- Dark places are hard to explore without a light.
+- Ghosts do not like magic.
+- The castle guard does not let anyone in for free.
+- Some doors need more than one thing to open.
+
+SAVING
+Your progress is saved with your name. Next time, write the same name
+and choose "yes" to continue your game.
