@@ -30,9 +30,9 @@ The player has to make choices. There are three different routes to the Secret R
 
 ### Route
    connect the rooms. Three different routes lead to the Secret Room:
-     Route 1 (guard route): village -> cemetery -> gate -> hall -> secret
-     Route 2 (wall route):  village -> forest -> wall -> hall -> secret
-     Route 3 (crypt route): village -> cemetery -> crypt -> secret
+     * Route 1 (guard route): village -> cemetery -> gate -> hall -> secret
+     * Route 2 (wall route):  village -> forest -> wall -> hall -> secret
+     * Route 3 (crypt route): village -> cemetery -> crypt -> secret
 
 ### How to run the game
 
@@ -45,29 +45,30 @@ At the start the game:
 * asks for the name,
 * if a saved game exists, asks if the player wants to load it.
 
-### Commands
+## Commands
 
-kartta -	map	Shows the current room and the rooms you can go to
-katso -	look	Shows the description of the room and the item in it
-liiku -	move	Shows the exits as a numbered list. Type a number to move there, if the rules allow it
-ota -	take	Collects the item in the room
-reppu -	backpack	Shows the items in the backpack and their total weight
-taika -	spell	Casts the spell from the Spell scroll. It makes the ghosts go away
-bell -	bell	Rings the bell (only a message)
-ohje -	instructions	Shows the instructions, which are read from instructions.txt
-tallenna -	save	Saves the game to savegame.txt
-lopeta -	quit	Ends the game
+* kartta -	map	Shows the current room and the rooms you can go to
+* katso -	look	Shows the description of the room and the item in it
+* liiku -	move	Shows the exits as a numbered list. Type a number to move there, if the rules allow it
+* takaisin - go back to the previous room
+* ota -	take	Collects the item in the room
+* reppu -	backpack	Shows the items in the backpack and their total weight
+* taika -	spell	Casts the spell from the Spell scroll. It makes the ghosts go away
+* bell -	bell	Rings the bell (only a message)
+* ohje -	instructions	Shows the instructions, which are read from instructions.txt
+* tallenna -	save	Saves the game to savegame.txt
+* lopeta -	quit	Ends the game
 
 
 
-### Game rules
+## Game rules
 
- If the age is under 12, the program ends.
- The village and the castle hall are dark. You need the torch to find items.
- The ghosts block the cemetery. Find the spell scroll in the village and use taika.
- The castle guard takes one gold coin when you enter the castle hall.
- The secret room needs the old key (from the cemetery) and the rope.
- The game is won when you collect the Ancient Gold Spell Stick.
+* If the age is under 12, the program ends.
+* The village and the castle hall are dark. You need the torch to find items.
+* The ghosts block the cemetery. Find the spell scroll in the village and use taika.
+* The castle guard takes one gold coin when you enter the castle hall.
+* The secret room needs the old key (from the cemetery) and the rope.
+* The game is won when you collect the Ancient Gold Spell Stick.
 
 ## Operating Principles
 
@@ -87,7 +88,8 @@ lopeta -	quit	Ends the game
 
 ## Project Structre
 
-## ancient_gold_spell_stick/
+## ancient_gold_spell_stick
+
 ###  ├──README.md        (this file)
 ###  ├─main.py          (starts the game, menu loop and game)
 ###  ├── intro.txt      (story text shown when a new game) 
@@ -99,11 +101,12 @@ lopeta -	quit	Ends the game
 ###  └── save.py              (saves the game to a file and loads it back)
 
 
-### Item.py, Room.py, Player.py -	the classes of the game
-### My_Game_world.py	- the content of the game (rooms, items, story texts, connections)
-### save.py -	reading and writing the save file
-### Textfiles.py -	reading the intro text file
-### main.py	- the user interface and the rules
+
+#### Item.py, Room.py, Player.py -	the classes of the game
+#### My_Game_world.py	- the content of the game (rooms, items, story texts, connections)
+#### save.py -	reading and writing the save file
+#### Textfiles.py -	reading the intro text file
+#### main.py	- the user interface and the rules
 
 ## Sustainable development perspective
 
