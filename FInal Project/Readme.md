@@ -30,9 +30,9 @@ The player has to make choices. There are three different routes to the Secret R
 
 ### Route
    connect the rooms. Three different routes lead to the Secret Room:
-     1 Route 1 (guard route): village -> cemetery -> gate -> hall -> secret
-     2 Route 2 (wall route):  village -> forest -> wall -> hall -> secret
-     3 Route 3 (crypt route): village -> cemetery -> crypt -> secret
+     * Route 1 (guard route): village -> cemetery -> gate -> hall -> secret
+     * Route 2 (wall route):  village -> forest -> wall -> hall -> secret
+     * Route 3 (crypt route): village -> cemetery -> crypt -> secret
 
 ### How to run the game
 
