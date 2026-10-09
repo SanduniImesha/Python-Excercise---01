@@ -1,3 +1,4 @@
+import os
 from Player import Player
 from My_Game_world import Room, Item, create_start_items, create_world
 from save import save_game, load_game, save_exists
@@ -137,10 +138,16 @@ def can_enter(player, room, state):
                 return False
         elif where == "Crypt Tunnel":
             # the small stone door from the crypt: silver locket
-            if not player.has_item("Silver locket"):
+            if player.has_item("Silver locket"):
+                print("You place the silver locket into the hollow. The stone door slides open!")
+                return True  # Directly allows entry into the Secret Room
+            else:
                 print("The small stone door has a hollow in the shape of a locket.")
                 print("You need the silver locket from the cemetery.")
+                return False  # Blocks entry if they don't have it
+
     return True
+
 
 def move_player(player, state):
     """Ask where to go and move the player if the rules allow it."""

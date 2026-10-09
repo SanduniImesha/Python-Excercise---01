@@ -4,7 +4,7 @@
 
 ## Storyline
 
-The player is a young adventurer who gets an old, mysterious map. The map shows where the ancient gold spell stick is hidden. The stick has been lost for many years.
+The player is a young adventurer who gets an old mysterious map. The map shows where the ancient gold spell stick is hidden. The stick has been lost for many years.
 
 The map leads to an abandoned village. Nobody lives there anymore. The village is dark and quiet, and it has an old cemetery, ruined buildings and a large ancient castle. Ghosts wander in the cemetery. An old guard stands at the castle gate. Somewhere inside the castle, in a secret room, lies an ancient chest.
 
@@ -30,9 +30,9 @@ The player has to make choices. There are three different routes to the Secret R
 
 ### Route
    connect the rooms. Three different routes lead to the Secret Room:
-     * Route 1 (guard route): village -> cemetery -> gate -> hall -> secret
-     * Route 2 (wall route):  village -> forest -> wall -> hall -> secret
-     * Route 3 (crypt route): village -> cemetery -> crypt -> secret
+     * Route 1 (guard route): village -> cemetery -> gate -> hall -> secret room
+     * Route 2 (wall route):  village -> forest -> wall -> hall -> secret room
+     * Route 3 (crypt route): village -> cemetery -> crypt -> secret room
 
 ### How to run the game
 
@@ -55,9 +55,9 @@ At the start the game:
 * reppu -	backpack	Shows the items in the backpack and their total weight
 * taika -	spell	Casts the spell from the Spell scroll. It makes the ghosts go away
 * bell -	bell	Rings the bell (only a message)
-* ohje -	instructions	Shows the instructions, which are read from instructions.txt
-* tallenna -	save	Saves the game to savegame.txt
-* lopeta -	quit	Ends the game
+* ohje -	instructions	-Shows the instructions, which are read from instructions.txt
+* tallenna -	save	- Saves the game to savegame.txt
+* lopeta -	quit	- Ends the game
 
 
 
